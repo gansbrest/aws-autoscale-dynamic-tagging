@@ -1,0 +1,12 @@
+{
+  "Type" : "Notification",
+  "MessageId" : "f4783206-3850-5458-9f05-7924944dfdb5",
+  "TopicArn" : "arn:aws:sns:us-east-1:88288268:AutoScalingNotifications",
+  "Subject" : "Auto Scaling: launch for group \"prod-jetpack\"",
+  "Message" : "{\"StatusCode\":\"InProgress\",\"Service\":\"AWS Auto Scaling\",\"AutoScalingGroupName\":\"prod-jetpack\",\"Description\":\"Launching a new EC2 instance: i-35fff875\",\"ActivityId\":\"42e3ab52-83fe-470c-bbc2-9af8b5b841f8\",\"Event\":\"autoscaling:EC2_INSTANCE_LAUNCH\",\"Details\":{\"Availability Zone\":\"us-east-1a\"},\"AutoScalingGroupARN\":\"arn:aws:autoscaling:us-east-1:882882684:autoScalingGroup:0d374f28-3ca6-486f-beb0-927:autoScalingGroupName/prod-jetpack\",\"Progress\":50,\"Time\":\"2013-12-11T18:07:20.861Z\",\"AccountId\":\"882882684\",\"RequestId\":\"42e3ab52-83fe-470c-bbc2-9af8b5b841f8\",\"StatusMessage\":\"\",\"EndTime\":\"2013-12-11T18:07:20.861Z\",\"EC2InstanceId\":\"i-35fff875\",\"StartTime\":\"2013-12-11T18:06:18.415Z\",\"Cause\":\"At 2013-12-11T18:06:18Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 1.\"}",
+  "Timestamp" : "2013-12-11T18:07:25.955Z",
+  "SignatureVersion" : "1",
+  "Signature" : "JRQDVirgLVJ2GoYCVy3S3rI9JSJWVoKCaYLPkO5ky6S7FnSGzNRkU4Q3fs8V5sVHT1tiAKLx6VXpldl16QGBlbkws3bKrnAvN4dH2w0k5qfAKsPRaycrORax2JkUjIxPxb3roFibd+U817Dhy/tukoZ4baDdDa/ysL5gkwjGY0X4HN4Qei7SDkFZqeU9FZ6vEuTn1E99qSAW8u/gH5lgh4mluDFYRoifyxsVp8VDchPjB6v+gZ2xotloZJHinpKSXwwLbJvu+/RsKNGb/f90sZy3WsdYFQJAXuWzERS7dLAboYUMLr2hiqCM2qG3q023VXnE16wIT0pu2hSfUj47hw==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-e372f8ca30337fdb084e8ac449342c77.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:88288268:AutoScalingNotifications:4a3498e5-e6a9-4011-b6bb-1789cc61c73d"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "aws-autoscale-dynamic-tagging",
+  "description": "Generates dynamic tags with auto incrementing numbers for AWS autoscale",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "aws-sdk": "2.0.0-rc2"
+  }
+}

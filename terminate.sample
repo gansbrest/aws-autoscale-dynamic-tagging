@@ -1,0 +1,12 @@
+{
+  "Type" : "Notification",
+  "MessageId" : "8cb24995-5b86-56e2-9557-02b7f03842f2",
+  "TopicArn" : "arn:aws:sns:us-east-1:88288268:AutoScalingNotifications",
+  "Subject" : "Auto Scaling: termination for group \"prod-jetpack\"",
+  "Message" : "{\"StatusCode\":\"InProgress\",\"Service\":\"AWS Auto Scaling\",\"AutoScalingGroupName\":\"prod-jetpack\",\"Description\":\"Terminating EC2 instance: i-94b05d22\",\"ActivityId\":\"92931401-af88-415b-b607-df1fb2e9d6d4\",\"Event\":\"autoscaling:EC2_INSTANCE_TERMINATE\",\"Details\":{\"Availability Zone\":\"us-east-1a\"},\"AutoScalingGroupARN\":\"arn:aws:autoscaling:us-east-1:882882684:autoScalingGroup:0d374f28-3ca6-486f-beb0-927:autoScalingGroupName/prod-jetpack\",\"Progress\":50,\"Time\":\"2013-12-11T18:05:50.805Z\",\"AccountId\":\"882882684\",\"RequestId\":\"92931401-af88-415b-b607-df1fb2e9d6d4\",\"StatusMessage\":\"\",\"EndTime\":\"2013-12-11T18:05:50.805Z\",\"EC2InstanceId\":\"i-94b05d22\",\"StartTime\":\"2013-12-11T18:05:48.169Z\",\"Cause\":\"At 2013-12-11T18:05:48Z an instance was taken out of service in response to a system health-check.\"}",
+  "Timestamp" : "2013-12-11T18:05:50.858Z",
+  "SignatureVersion" : "1",
+  "Signature" : "kYKQQnroFSxNOzbmsct637QtdS/IFWnQ0Wn7DN/WYnRXal6ccJWeIuyHY7SxsWSefqyvBJhsxDgQGGWS9Nxdgjla4sMnSoDXzEke0gkIiuNsUde7UmCO6o3B+ZIGo5HF2suoiQYCbgO9s/tEUnMZZko/VNzU9ijz4De/6SvCYH4q4PuBIWjzXMDh3Q4FFD1FJfDZS9Ki2bKaNpR7VxaLoCV2hIE0GPpyp6tREQMNhad13TSSyl2R3FuWsNCrhPQq6nr37RTPolcASRyUeXhdRxAK43N1luO9D1Hed+pfq6Srb2uDYieVZafOgxY4SCeBS/NwrhIJZxyS9C4EbuaUgA==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-e372f8ca30337fdb084e8ac449342c77.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:88288268:AutoScalingNotifications:4a3498e5-e6a9-4011-b6bb-1789cc61c73d"
+}
