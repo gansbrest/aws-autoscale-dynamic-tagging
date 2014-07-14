@@ -17,3 +17,5 @@ There are couple sample SNS messages that could be useful for testing, make sure
 1. Setup SNS topic with HTTP endpoint pointing to your app
 2. Run `npm install`
 3. Launch aws-helper.js script (somth like `node aws-helper.js`)
+
+**IMPORTANT** - the code assumes you are using IAM roles, so you don't need to specify AWS access keys when you use SDK. If you don't - adjust the code accordingly to pass access and secret keys.
